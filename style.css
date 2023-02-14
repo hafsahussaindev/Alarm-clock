@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins:wght@500&family=Roboto:wght@300&family=Source+Code+Pro:wght@300&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body, .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    min-height: 100vh;
+    background-color: rgb(148, 103, 190);
+}
+.wrapper{
+    width:500px;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 30px 30px 38px;   
+}
+.wrapper img{
+    padding-top: 20px;
+    max-width: 200px;
+}
+.wrapper h1{
+    font-size: 38px;
+    font-weight: 500;
+    margin:  30px 0px;
+}
+.wrapper .content{
+    width: 70%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.wrapper .content.disable{
+    opacity: 0.6;
+    pointer-events: none;
+}
+.content .column{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 0 10px;
+    width: calc(100% / 3-5px);
+}
+.column  select{
+    outline: none;
+    border: none;
+    height: 45px;
+    width: 100%;
+    font-size: 14px;
+}
+.wrapper button{
+    width: 70%;
+    outline: none;
+    border: none;
+    color:white;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 15px 0;
+    border-radius: 5px;
+    background-color: rgb(109, 59, 156);
+}
+.wrapper h2{
+    color: rgb(100, 53, 144);
+}
